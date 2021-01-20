@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name digikey-footprints)(type KiCad)(uri ${DIGI_KEY_MASTER}/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name Source_Footprints)(type KiCad)(uri ${DIGI_KEY_MASTER}/src/Source_Footprints)(options "")(descr ""))
+)
