@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>D:\My Libraries\My Docments\KiCAD\Sort and Save Scanner\Sort and Save Scanner.sch</source>
-    <date>2021-01-18 9:13:26 PM</date>
+    <date>2021-01-21 1:55:56 PM</date>
     <tool>Eeschema (5.1.6)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Sort and Save Scanner</title>
         <company>AIML</company>
-        <rev>v01</rev>
-        <date>2020-08-26</date>
+        <rev>v1.0.0</rev>
+        <date>2021-01-21</date>
         <source>Sort and Save Scanner.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -21,8 +21,8 @@
       <title_block>
         <title>Sort and Save Scanner</title>
         <company>AIML</company>
-        <rev>v01</rev>
-        <date>2020-08-26</date>
+        <rev>v1.0.0</rev>
+        <date>2021-01-21</date>
         <source>Power_Supply.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -34,8 +34,8 @@
       <title_block>
         <title>Sort and Save Scanner</title>
         <company>AIML</company>
-        <rev>v01</rev>
-        <date>2020-08-26</date>
+        <rev>v1.0.0</rev>
+        <date>2021-01-21</date>
         <source>ARM.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -47,8 +47,8 @@
       <title_block>
         <title>Sort and Save Scanner</title>
         <company>AIML</company>
-        <rev>v01</rev>
-        <date>2020-08-26</date>
+        <rev>v1.0.0</rev>
+        <date>2021-01-21</date>
         <source>Sensor.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -194,6 +194,76 @@
       <libsource lib="Regulator_Linear" part="LM78L12_SO8" description="Positive 100mA 30V Linear Regulator, Fixed Output 12V, SO-8"/>
       <sheetpath names="/Power Supply/" tstamps="/5F6466EC/"/>
       <tstamp>6009F15C</tstamp>
+    </comp>
+    <comp ref="J203">
+      <value>B2B-PH-K-S_LF__SN_</value>
+      <footprint>digikey-footprints:PinHeader_1x2_P2mm_Drill1mm</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B2B-PH-K-S(LF)(SN)/455-1704-ND/926611</field>
+        <field name="Description">CONN HEADER VERT 2POS 2MM</field>
+        <field name="Digi-Key_PN">455-1704-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">B2B-PH-K-S(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B2B-PH-K-S_LF__SN_" description="CONN HEADER VERT 2POS 2MM"/>
+      <sheetpath names="/Power Supply/" tstamps="/5F6466EC/"/>
+      <tstamp>600E9FAF</tstamp>
+    </comp>
+    <comp ref="J202">
+      <value>B2B-PH-K-S_LF__SN_</value>
+      <footprint>digikey-footprints:PinHeader_1x2_P2mm_Drill1mm</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B2B-PH-K-S(LF)(SN)/455-1704-ND/926611</field>
+        <field name="Description">CONN HEADER VERT 2POS 2MM</field>
+        <field name="Digi-Key_PN">455-1704-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">B2B-PH-K-S(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B2B-PH-K-S_LF__SN_" description="CONN HEADER VERT 2POS 2MM"/>
+      <sheetpath names="/Power Supply/" tstamps="/5F6466EC/"/>
+      <tstamp>600E7DD1</tstamp>
+    </comp>
+    <comp ref="H201">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/Power Supply/" tstamps="/5F6466EC/"/>
+      <tstamp>601829C2</tstamp>
+    </comp>
+    <comp ref="H202">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/Power Supply/" tstamps="/5F6466EC/"/>
+      <tstamp>6018323D</tstamp>
+    </comp>
+    <comp ref="H203">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/Power Supply/" tstamps="/5F6466EC/"/>
+      <tstamp>60183527</tstamp>
+    </comp>
+    <comp ref="H204">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/Power Supply/" tstamps="/5F6466EC/"/>
+      <tstamp>601837B8</tstamp>
     </comp>
     <comp ref="R303">
       <value>100k</value>
@@ -405,9 +475,79 @@
       <sheetpath names="/ARM Board/" tstamps="/5F38328C/"/>
       <tstamp>60039D31</tstamp>
     </comp>
+    <comp ref="J303">
+      <value>B4B-PH-K-S_LF__SN_</value>
+      <footprint>digikey-footprints:PinHeader_1x4_P2mm_Drill1mm</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B4B-PH-K-S(LF)(SN)/455-1706-ND/926613</field>
+        <field name="Description">CONN HEADER VERT 4POS 2MM</field>
+        <field name="Digi-Key_PN">455-1706-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">B4B-PH-K-S(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B4B-PH-K-S_LF__SN_" description="CONN HEADER VERT 4POS 2MM"/>
+      <sheetpath names="/ARM Board/" tstamps="/5F38328C/"/>
+      <tstamp>600BEF07</tstamp>
+    </comp>
+    <comp ref="J304">
+      <value>B2B-PH-K-S_LF__SN_</value>
+      <footprint>digikey-footprints:PinHeader_1x2_P2mm_Drill1mm</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B2B-PH-K-S(LF)(SN)/455-1704-ND/926611</field>
+        <field name="Description">CONN HEADER VERT 2POS 2MM</field>
+        <field name="Digi-Key_PN">455-1704-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">B2B-PH-K-S(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B2B-PH-K-S_LF__SN_" description="CONN HEADER VERT 2POS 2MM"/>
+      <sheetpath names="/ARM Board/" tstamps="/5F38328C/"/>
+      <tstamp>60129CE1</tstamp>
+    </comp>
+    <comp ref="H301">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/ARM Board/" tstamps="/5F38328C/"/>
+      <tstamp>601602A6</tstamp>
+    </comp>
+    <comp ref="H302">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/ARM Board/" tstamps="/5F38328C/"/>
+      <tstamp>601608D7</tstamp>
+    </comp>
+    <comp ref="H303">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/ARM Board/" tstamps="/5F38328C/"/>
+      <tstamp>60160B81</tstamp>
+    </comp>
+    <comp ref="H304">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/ARM Board/" tstamps="/5F38328C/"/>
+      <tstamp>60160EC7</tstamp>
+    </comp>
     <comp ref="D405">
       <value>White</value>
-      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
       <datasheet>http://www.farnell.com/datasheets/2699708.pdf</datasheet>
       <fields>
         <field name="Purchase Site">https://canada.newark.com/vcc-visual-communications-company/lsm0603443v/led-white-120mcd-smd/dp/73AC4718?gclid=Cj0KCQjw7ZL6BRCmARIsAH6XFDJeERJAF4apSxdmHPzfx7J85qBDL3VHjlqkW7nuuDD_Z3Vs51Cpc8waAqhqEALw_wcB&amp;mckv=sQ9nYXayh_dc|pcrid|436284254585|plid||kword||match||slid||product|73AC4718|pgrid|106725850292|ptaid|pla-904062949365|&amp;CMP=KNC-GCA-GEN-Shopping-NewStructure-Optoelectronics-Displays</field>
@@ -428,8 +568,8 @@
       <tstamp>5F4ACB0C</tstamp>
     </comp>
     <comp ref="D406">
-      <value>950nm</value>
-      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <value>940nm</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
       <datasheet>http://www.farnell.com/datasheets/2711871.pdf</datasheet>
       <fields>
         <field name="Purchase Site">https://www.digikey.ca/en/products/detail/osram-opto-semiconductors-inc/SFH-4043/4360732</field>
@@ -505,7 +645,7 @@
       <tstamp>5F4CF7FA</tstamp>
     </comp>
     <comp ref="R402">
-      <value>39</value>
+      <value>66</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
       <fields>
@@ -1023,6 +1163,20 @@
         <pin num="64" name="VDD" type="power_in"/>
       </pins>
     </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
     <libpart lib="Reference_Voltage" part="REF5020AD">
       <aliases>
         <alias>REF5025AD</alias>
@@ -1136,6 +1290,29 @@
         <pin num="12" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B2B-PH-K-S_LF__SN_">
+      <description>CONN HEADER VERT 2POS 2MM</description>
+      <docs>http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">B2B-PH-K-S_LF__SN_</field>
+        <field name="Footprint">digikey-footprints:PinHeader_1x2_P2mm_Drill1mm</field>
+        <field name="Datasheet">http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</field>
+        <field name="Digi-Key_PN">455-1704-ND</field>
+        <field name="MPN">B2B-PH-K-S(LF)(SN)</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B2B-PH-K-S(LF)(SN)/455-1704-ND/926611</field>
+        <field name="Description">CONN HEADER VERT 2POS 2MM</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B4B-PH-K-S_LF__SN_">
       <description>CONN HEADER VERT 4POS 2MM</description>
       <docs>http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</docs>
@@ -1231,6 +1408,9 @@
     <library logical="MCU_ST_STM32F0">
       <uri>C:\Program Files\KiCad\share\kicad\library/MCU_ST_STM32F0.lib</uri>
     </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
     <library logical="Reference_Voltage">
       <uri>C:\Program Files\KiCad\share\kicad\library/Reference_Voltage.lib</uri>
     </library>
@@ -1247,14 +1427,15 @@
   <nets>
     <net code="1" name="/ARM Board/UART_TX">
       <node ref="U301" pin="43"/>
+      <node ref="J303" pin="2"/>
     </net>
     <net code="2" name="/Sensor/LED_PWR_IN6">
-      <node ref="R403" pin="2"/>
       <node ref="J401" pin="10"/>
+      <node ref="R403" pin="2"/>
     </net>
     <net code="3" name="/Sensor/LED_PWR_IN5">
-      <node ref="J401" pin="12"/>
       <node ref="R404" pin="2"/>
+      <node ref="J401" pin="12"/>
     </net>
     <net code="4" name="/Sensor/LED_PWR_IN4">
       <node ref="J401" pin="11"/>
@@ -1265,89 +1446,94 @@
       <node ref="J401" pin="9"/>
     </net>
     <net code="6" name="/Sensor/LED_PWR_IN2">
-      <node ref="R407" pin="2"/>
       <node ref="J401" pin="7"/>
+      <node ref="R407" pin="2"/>
     </net>
     <net code="7" name="/Sensor/LED_PWR_IN1">
-      <node ref="J401" pin="5"/>
       <node ref="R408" pin="2"/>
+      <node ref="J401" pin="5"/>
     </net>
     <net code="8" name="+5V">
-      <node ref="C205" pin="1"/>
-      <node ref="U401" pin="8"/>
-      <node ref="C206" pin="2"/>
+      <node ref="C401" pin="2"/>
+      <node ref="U402" pin="2"/>
       <node ref="C405" pin="1"/>
+      <node ref="C205" pin="1"/>
+      <node ref="C206" pin="2"/>
       <node ref="U202" pin="2"/>
       <node ref="U202" pin="1"/>
-      <node ref="U402" pin="2"/>
+      <node ref="J203" pin="1"/>
       <node ref="J401" pin="2"/>
-      <node ref="C401" pin="2"/>
+      <node ref="U401" pin="8"/>
     </net>
     <net code="9" name="/Sensor/LED_PWR_IN7">
       <node ref="J401" pin="8"/>
       <node ref="R402" pin="2"/>
     </net>
     <net code="10" name="/ARM Board/UART_RX">
+      <node ref="J303" pin="3"/>
       <node ref="U301" pin="42"/>
     </net>
     <net code="11" name="/ARM Board/ANALOG_IN2">
-      <node ref="C304" pin="2"/>
-      <node ref="C303" pin="2"/>
       <node ref="J302" pin="1"/>
       <node ref="U301" pin="15"/>
+      <node ref="C303" pin="2"/>
+      <node ref="C304" pin="2"/>
     </net>
     <net code="12" name="/ARM Board/ANALOG_IN1">
       <node ref="J302" pin="2"/>
+      <node ref="C304" pin="1"/>
       <node ref="U301" pin="14"/>
       <node ref="C303" pin="1"/>
-      <node ref="C304" pin="1"/>
     </net>
     <net code="13" name="/ARM Board/LED_OUT8">
       <node ref="U301" pin="29"/>
       <node ref="J302" pin="4"/>
     </net>
     <net code="14" name="/ARM Board/LED_OUT7">
-      <node ref="J302" pin="6"/>
       <node ref="U301" pin="62"/>
+      <node ref="J302" pin="6"/>
     </net>
     <net code="15" name="/ARM Board/LED_OUT6">
       <node ref="U301" pin="61"/>
       <node ref="J302" pin="8"/>
     </net>
     <net code="16" name="/ARM Board/LED_OUT5">
-      <node ref="J302" pin="10"/>
       <node ref="U301" pin="59"/>
+      <node ref="J302" pin="10"/>
     </net>
     <net code="17" name="/ARM Board/LED_OUT4">
       <node ref="J302" pin="9"/>
       <node ref="U301" pin="58"/>
     </net>
     <net code="18" name="+12V">
-      <node ref="C203" pin="1"/>
-      <node ref="U203" pin="8"/>
-      <node ref="U203" pin="5"/>
       <node ref="C202" pin="2"/>
-      <node ref="C204" pin="1"/>
-      <node ref="U202" pin="5"/>
-      <node ref="U202" pin="8"/>
+      <node ref="C203" pin="1"/>
       <node ref="U201" pin="1"/>
+      <node ref="U203" pin="5"/>
+      <node ref="U203" pin="8"/>
+      <node ref="C204" pin="1"/>
+      <node ref="U202" pin="8"/>
+      <node ref="U202" pin="5"/>
     </net>
     <net code="19" name="+3V3">
-      <node ref="U301" pin="13"/>
-      <node ref="C208" pin="2"/>
+      <node ref="C307" pin="1"/>
       <node ref="C207" pin="1"/>
-      <node ref="U301" pin="32"/>
+      <node ref="U301" pin="64"/>
+      <node ref="C306" pin="1"/>
       <node ref="U203" pin="2"/>
       <node ref="U203" pin="1"/>
-      <node ref="C306" pin="1"/>
-      <node ref="J301" pin="1"/>
+      <node ref="U301" pin="13"/>
+      <node ref="U301" pin="32"/>
       <node ref="C305" pin="1"/>
-      <node ref="C307" pin="1"/>
-      <node ref="U301" pin="64"/>
-      <node ref="C308" pin="1"/>
-      <node ref="D301" pin="2"/>
+      <node ref="C208" pin="2"/>
       <node ref="R302" pin="2"/>
+      <node ref="C308" pin="1"/>
+      <node ref="J304" pin="1"/>
+      <node ref="J202" pin="1"/>
+      <node ref="D301" pin="2"/>
+      <node ref="J301" pin="1"/>
       <node ref="S301" pin="3"/>
+      <node ref="J303" pin="4"/>
     </net>
     <net code="20" name="/Sensor/ANALOG_OUT2">
       <node ref="J401" pin="4"/>
@@ -1362,57 +1548,70 @@
       <node ref="R401" pin="2"/>
     </net>
     <net code="23" name="GND">
+      <node ref="J203" pin="2"/>
+      <node ref="C208" pin="1"/>
+      <node ref="C206" pin="1"/>
       <node ref="U401" pin="4"/>
-      <node ref="C406" pin="2"/>
-      <node ref="C404" pin="1"/>
-      <node ref="C407" pin="2"/>
-      <node ref="J201" pin="4"/>
+      <node ref="C204" pin="2"/>
       <node ref="U202" pin="7"/>
       <node ref="U202" pin="6"/>
       <node ref="U202" pin="3"/>
-      <node ref="C202" pin="1"/>
-      <node ref="U201" pin="7"/>
-      <node ref="U201" pin="6"/>
-      <node ref="U201" pin="3"/>
-      <node ref="U201" pin="2"/>
-      <node ref="C204" pin="2"/>
       <node ref="U203" pin="3"/>
-      <node ref="C208" pin="1"/>
-      <node ref="C206" pin="1"/>
-      <node ref="D403" pin="2"/>
-      <node ref="D405" pin="2"/>
-      <node ref="D401" pin="2"/>
-      <node ref="D406" pin="2"/>
-      <node ref="D402" pin="2"/>
-      <node ref="D408" pin="2"/>
       <node ref="D404" pin="2"/>
+      <node ref="D408" pin="2"/>
+      <node ref="D403" pin="2"/>
       <node ref="D407" pin="2"/>
-      <node ref="U402" pin="4"/>
-      <node ref="C405" pin="2"/>
-      <node ref="U203" pin="7"/>
-      <node ref="U203" pin="6"/>
+      <node ref="J201" pin="4"/>
+      <node ref="D402" pin="2"/>
+      <node ref="D406" pin="2"/>
+      <node ref="D401" pin="2"/>
+      <node ref="D405" pin="2"/>
+      <node ref="J202" pin="2"/>
+      <node ref="C407" pin="2"/>
       <node ref="C201" pin="1"/>
       <node ref="C203" pin="2"/>
-      <node ref="R303" pin="2"/>
+      <node ref="C202" pin="1"/>
+      <node ref="U201" pin="3"/>
+      <node ref="U201" pin="2"/>
+      <node ref="H204" pin="1"/>
+      <node ref="C406" pin="2"/>
+      <node ref="C405" pin="2"/>
+      <node ref="J401" pin="1"/>
+      <node ref="U201" pin="6"/>
+      <node ref="H201" pin="1"/>
+      <node ref="H202" pin="1"/>
+      <node ref="U203" pin="6"/>
+      <node ref="H203" pin="1"/>
+      <node ref="U402" pin="4"/>
+      <node ref="U201" pin="7"/>
+      <node ref="U203" pin="7"/>
       <node ref="C305" pin="2"/>
-      <node ref="C308" pin="2"/>
-      <node ref="C307" pin="2"/>
-      <node ref="C306" pin="2"/>
+      <node ref="R303" pin="2"/>
       <node ref="C301" pin="2"/>
-      <node ref="U301" pin="63"/>
-      <node ref="Y301" pin="4"/>
-      <node ref="C401" pin="1"/>
-      <node ref="U301" pin="12"/>
-      <node ref="J301" pin="5"/>
-      <node ref="J301" pin="3"/>
+      <node ref="J304" pin="2"/>
+      <node ref="C307" pin="2"/>
+      <node ref="C308" pin="2"/>
+      <node ref="C306" pin="2"/>
       <node ref="U301" pin="31"/>
-      <node ref="Y301" pin="2"/>
-      <node ref="C302" pin="2"/>
+      <node ref="U301" pin="63"/>
+      <node ref="H303" pin="1"/>
+      <node ref="H304" pin="1"/>
+      <node ref="U301" pin="12"/>
       <node ref="S301" pin="2"/>
+      <node ref="H302" pin="1"/>
+      <node ref="J303" pin="1"/>
+      <node ref="C302" pin="2"/>
+      <node ref="Y301" pin="2"/>
+      <node ref="Y301" pin="4"/>
+      <node ref="H301" pin="1"/>
+      <node ref="C401" pin="1"/>
+      <node ref="C404" pin="1"/>
+      <node ref="J301" pin="3"/>
+      <node ref="J301" pin="5"/>
     </net>
     <net code="24" name="+24V">
-      <node ref="C201" pin="2"/>
       <node ref="U201" pin="8"/>
+      <node ref="C201" pin="2"/>
       <node ref="J201" pin="1"/>
     </net>
     <net code="25" name="/ARM Board/LED_OUT2">
@@ -1427,17 +1626,18 @@
       <node ref="J302" pin="3"/>
       <node ref="U301" pin="55"/>
     </net>
-    <net code="29" name="Net-(U301-Pad18)">
-      <node ref="U301" pin="18"/>
-    </net>
-    <net code="30" name="Net-(J301-Pad8)">
+    <net code="29" name="Net-(J301-Pad8)">
       <node ref="J301" pin="8"/>
     </net>
-    <net code="31" name="Net-(J301-Pad6)">
+    <net code="30" name="Net-(J301-Pad6)">
       <node ref="J301" pin="6"/>
     </net>
-    <net code="32" name="Net-(J301-Pad7)">
+    <net code="31" name="Net-(J301-Pad7)">
       <node ref="J301" pin="7"/>
+    </net>
+    <net code="32" name="/ARM Board/SWCLK">
+      <node ref="U301" pin="49"/>
+      <node ref="J301" pin="4"/>
     </net>
     <net code="33" name="/ARM Board/SWDIO">
       <node ref="J301" pin="2"/>
@@ -1446,256 +1646,252 @@
     <net code="34" name="Net-(U301-Pad19)">
       <node ref="U301" pin="19"/>
     </net>
-    <net code="35" name="Net-(U301-Pad54)">
-      <node ref="U301" pin="54"/>
-    </net>
-    <net code="36" name="Net-(U301-Pad8)">
-      <node ref="U301" pin="8"/>
-    </net>
-    <net code="37" name="Net-(U301-Pad9)">
-      <node ref="U301" pin="9"/>
-    </net>
-    <net code="38" name="Net-(U301-Pad10)">
-      <node ref="U301" pin="10"/>
-    </net>
-    <net code="39" name="Net-(U301-Pad11)">
-      <node ref="U301" pin="11"/>
-    </net>
-    <net code="40" name="Net-(U301-Pad24)">
-      <node ref="U301" pin="24"/>
-    </net>
-    <net code="41" name="Net-(U301-Pad25)">
-      <node ref="U301" pin="25"/>
-    </net>
-    <net code="42" name="Net-(U301-Pad37)">
+    <net code="35" name="Net-(U301-Pad37)">
       <node ref="U301" pin="37"/>
     </net>
-    <net code="43" name="Net-(U301-Pad38)">
-      <node ref="U301" pin="38"/>
+    <net code="36" name="Net-(U301-Pad25)">
+      <node ref="U301" pin="25"/>
     </net>
-    <net code="44" name="Net-(U301-Pad39)">
-      <node ref="U301" pin="39"/>
+    <net code="37" name="Net-(U301-Pad24)">
+      <node ref="U301" pin="24"/>
     </net>
-    <net code="45" name="Net-(U301-Pad40)">
-      <node ref="U301" pin="40"/>
+    <net code="38" name="Net-(U301-Pad11)">
+      <node ref="U301" pin="11"/>
     </net>
-    <net code="46" name="Net-(U301-Pad51)">
-      <node ref="U301" pin="51"/>
+    <net code="39" name="Net-(U301-Pad10)">
+      <node ref="U301" pin="10"/>
     </net>
-    <net code="47" name="Net-(U301-Pad52)">
-      <node ref="U301" pin="52"/>
+    <net code="40" name="Net-(U301-Pad9)">
+      <node ref="U301" pin="9"/>
     </net>
-    <net code="48" name="Net-(U301-Pad53)">
-      <node ref="U301" pin="53"/>
+    <net code="41" name="Net-(U301-Pad8)">
+      <node ref="U301" pin="8"/>
     </net>
-    <net code="49" name="/ARM Board/SWCLK">
-      <node ref="U301" pin="49"/>
-      <node ref="J301" pin="4"/>
+    <net code="42" name="Net-(U301-Pad54)">
+      <node ref="U301" pin="54"/>
     </net>
-    <net code="50" name="Net-(D301-Pad1)">
+    <net code="43" name="Net-(U301-Pad18)">
+      <node ref="U301" pin="18"/>
+    </net>
+    <net code="44" name="Net-(J301-Pad9)">
+      <node ref="R301" pin="1"/>
+      <node ref="J301" pin="9"/>
+    </net>
+    <net code="45" name="Net-(D301-Pad1)">
       <node ref="D301" pin="1"/>
       <node ref="R301" pin="2"/>
     </net>
-    <net code="51" name="Net-(J301-Pad9)">
-      <node ref="J301" pin="9"/>
-      <node ref="R301" pin="1"/>
-    </net>
-    <net code="52" name="Net-(U301-Pad21)">
-      <node ref="U301" pin="21"/>
-    </net>
-    <net code="53" name="Net-(U301-Pad3)">
-      <node ref="U301" pin="3"/>
-    </net>
-    <net code="54" name="Net-(U301-Pad4)">
-      <node ref="U301" pin="4"/>
-    </net>
-    <net code="55" name="Net-(U301-Pad36)">
+    <net code="46" name="Net-(U301-Pad36)">
       <node ref="U301" pin="36"/>
     </net>
-    <net code="56" name="Net-(U301-Pad35)">
-      <node ref="U301" pin="35"/>
-    </net>
-    <net code="57" name="Net-(U301-Pad34)">
-      <node ref="U301" pin="34"/>
-    </net>
-    <net code="58" name="Net-(U301-Pad33)">
-      <node ref="U301" pin="33"/>
-    </net>
-    <net code="59" name="Net-(U301-Pad30)">
-      <node ref="U301" pin="30"/>
-    </net>
-    <net code="60" name="Net-(U301-Pad28)">
-      <node ref="U301" pin="28"/>
-    </net>
-    <net code="61" name="Net-(U301-Pad45)">
-      <node ref="U301" pin="45"/>
-    </net>
-    <net code="62" name="Net-(U301-Pad44)">
-      <node ref="U301" pin="44"/>
-    </net>
-    <net code="63" name="Net-(U301-Pad48)">
+    <net code="47" name="Net-(U301-Pad48)">
       <node ref="U301" pin="48"/>
     </net>
-    <net code="64" name="Net-(U301-Pad47)">
+    <net code="48" name="Net-(U301-Pad44)">
+      <node ref="U301" pin="44"/>
+    </net>
+    <net code="49" name="Net-(U301-Pad45)">
+      <node ref="U301" pin="45"/>
+    </net>
+    <net code="50" name="Net-(U301-Pad28)">
+      <node ref="U301" pin="28"/>
+    </net>
+    <net code="51" name="Net-(U301-Pad30)">
+      <node ref="U301" pin="30"/>
+    </net>
+    <net code="52" name="Net-(U301-Pad33)">
+      <node ref="U301" pin="33"/>
+    </net>
+    <net code="53" name="Net-(U301-Pad34)">
+      <node ref="U301" pin="34"/>
+    </net>
+    <net code="54" name="Net-(U301-Pad35)">
+      <node ref="U301" pin="35"/>
+    </net>
+    <net code="55" name="Net-(U301-Pad47)">
       <node ref="U301" pin="47"/>
     </net>
-    <net code="65" name="Net-(U301-Pad41)">
-      <node ref="U301" pin="41"/>
+    <net code="56" name="Net-(U301-Pad4)">
+      <node ref="U301" pin="4"/>
     </net>
-    <net code="66" name="Net-(U301-Pad23)">
-      <node ref="U301" pin="23"/>
+    <net code="57" name="Net-(U301-Pad3)">
+      <node ref="U301" pin="3"/>
     </net>
-    <net code="67" name="Net-(U301-Pad22)">
-      <node ref="U301" pin="22"/>
-    </net>
-    <net code="68" name="Net-(U301-Pad2)">
+    <net code="58" name="Net-(U301-Pad2)">
       <node ref="U301" pin="2"/>
     </net>
-    <net code="69" name="Net-(U301-Pad20)">
-      <node ref="U301" pin="20"/>
+    <net code="59" name="Net-(U301-Pad53)">
+      <node ref="U301" pin="53"/>
     </net>
-    <net code="70" name="Net-(U301-Pad17)">
-      <node ref="U301" pin="17"/>
+    <net code="60" name="Net-(U301-Pad52)">
+      <node ref="U301" pin="52"/>
     </net>
-    <net code="71" name="Net-(U301-Pad16)">
-      <node ref="U301" pin="16"/>
+    <net code="61" name="Net-(U301-Pad51)">
+      <node ref="U301" pin="51"/>
     </net>
-    <net code="72" name="Net-(U301-Pad1)">
+    <net code="62" name="Net-(U301-Pad40)">
+      <node ref="U301" pin="40"/>
+    </net>
+    <net code="63" name="Net-(U301-Pad39)">
+      <node ref="U301" pin="39"/>
+    </net>
+    <net code="64" name="Net-(U301-Pad1)">
       <node ref="U301" pin="1"/>
     </net>
-    <net code="73" name="/ARM Board/NRST">
-      <node ref="U301" pin="7"/>
-      <node ref="R302" pin="1"/>
-      <node ref="J301" pin="10"/>
+    <net code="65" name="Net-(U301-Pad38)">
+      <node ref="U301" pin="38"/>
     </net>
-    <net code="74" name="Net-(R303-Pad1)">
-      <node ref="R303" pin="1"/>
-      <node ref="U301" pin="60"/>
+    <net code="66" name="Net-(U301-Pad16)">
+      <node ref="U301" pin="16"/>
     </net>
-    <net code="75" name="/ARM Board/HSE_IN">
-      <node ref="C301" pin="1"/>
-      <node ref="Y301" pin="1"/>
-      <node ref="U301" pin="5"/>
+    <net code="67" name="Net-(U301-Pad17)">
+      <node ref="U301" pin="17"/>
     </net>
-    <net code="76" name="Net-(S301-Pad1)">
+    <net code="68" name="Net-(U301-Pad20)">
+      <node ref="U301" pin="20"/>
+    </net>
+    <net code="69" name="Net-(U301-Pad21)">
+      <node ref="U301" pin="21"/>
+    </net>
+    <net code="70" name="Net-(U301-Pad22)">
+      <node ref="U301" pin="22"/>
+    </net>
+    <net code="71" name="Net-(U301-Pad23)">
+      <node ref="U301" pin="23"/>
+    </net>
+    <net code="72" name="Net-(U301-Pad41)">
+      <node ref="U301" pin="41"/>
+    </net>
+    <net code="73" name="Net-(U301-Pad27)">
+      <node ref="U301" pin="27"/>
+    </net>
+    <net code="74" name="Net-(S301-Pad1)">
       <node ref="U301" pin="50"/>
       <node ref="S301" pin="1"/>
     </net>
-    <net code="77" name="Net-(S301-Pad4)">
+    <net code="75" name="Net-(S301-Pad4)">
       <node ref="S301" pin="4"/>
     </net>
-    <net code="78" name="Net-(U301-Pad27)">
-      <node ref="U301" pin="27"/>
-    </net>
-    <net code="79" name="Net-(U301-Pad26)">
+    <net code="76" name="Net-(U301-Pad26)">
       <node ref="U301" pin="26"/>
     </net>
+    <net code="77" name="/ARM Board/HSE_IN">
+      <node ref="U301" pin="5"/>
+      <node ref="Y301" pin="1"/>
+      <node ref="C301" pin="1"/>
+    </net>
+    <net code="78" name="Net-(R303-Pad1)">
+      <node ref="R303" pin="1"/>
+      <node ref="U301" pin="60"/>
+    </net>
+    <net code="79" name="/ARM Board/NRST">
+      <node ref="R302" pin="1"/>
+      <node ref="U301" pin="7"/>
+      <node ref="J301" pin="10"/>
+    </net>
     <net code="80" name="/ARM Board/HSE_OUT">
-      <node ref="U301" pin="6"/>
       <node ref="Y301" pin="3"/>
+      <node ref="U301" pin="6"/>
       <node ref="C302" pin="1"/>
     </net>
-    <net code="81" name="Net-(C403-Pad1)">
-      <node ref="U401" pin="6"/>
-      <node ref="R412" pin="1"/>
-      <node ref="D409" pin="1"/>
-      <node ref="C403" pin="1"/>
-    </net>
-    <net code="82" name="Net-(C403-Pad2)">
-      <node ref="C403" pin="2"/>
-      <node ref="R410" pin="1"/>
+    <net code="81" name="Net-(C403-Pad2)">
       <node ref="R412" pin="2"/>
+      <node ref="C403" pin="2"/>
       <node ref="U401" pin="7"/>
+      <node ref="R410" pin="1"/>
     </net>
-    <net code="83" name="Net-(D407-Pad1)">
-      <node ref="R405" pin="1"/>
-      <node ref="D407" pin="1"/>
+    <net code="82" name="Net-(C402-Pad2)">
+      <node ref="R409" pin="1"/>
+      <node ref="C402" pin="2"/>
+      <node ref="R411" pin="2"/>
+      <node ref="U401" pin="1"/>
     </net>
-    <net code="84" name="+2V5">
-      <node ref="U401" pin="5"/>
+    <net code="83" name="+2V5">
       <node ref="U401" pin="3"/>
-      <node ref="C407" pin="1"/>
-      <node ref="U402" pin="6"/>
+      <node ref="U401" pin="5"/>
       <node ref="C404" pin="2"/>
+      <node ref="U402" pin="6"/>
+      <node ref="C407" pin="1"/>
     </net>
-    <net code="85" name="Net-(C402-Pad1)">
-      <node ref="R411" pin="1"/>
-      <node ref="C402" pin="1"/>
-      <node ref="D409" pin="2"/>
-      <node ref="U401" pin="2"/>
+    <net code="84" name="Net-(D407-Pad1)">
+      <node ref="D407" pin="1"/>
+      <node ref="R405" pin="1"/>
     </net>
-    <net code="86" name="Net-(D404-Pad1)">
-      <node ref="R408" pin="1"/>
-      <node ref="D404" pin="1"/>
-    </net>
-    <net code="87" name="Net-(D403-Pad1)">
-      <node ref="R406" pin="1"/>
-      <node ref="D403" pin="1"/>
-    </net>
-    <net code="88" name="Net-(D402-Pad1)">
-      <node ref="R404" pin="1"/>
-      <node ref="D402" pin="1"/>
-    </net>
-    <net code="89" name="Net-(D406-Pad1)">
+    <net code="85" name="Net-(D406-Pad1)">
       <node ref="D406" pin="1"/>
       <node ref="R403" pin="1"/>
     </net>
-    <net code="90" name="Net-(D401-Pad1)">
-      <node ref="D401" pin="1"/>
-      <node ref="R402" pin="1"/>
-    </net>
-    <net code="91" name="Net-(D405-Pad1)">
-      <node ref="R401" pin="1"/>
+    <net code="86" name="Net-(D405-Pad1)">
       <node ref="D405" pin="1"/>
+      <node ref="R401" pin="1"/>
     </net>
-    <net code="92" name="Net-(J401-Pad1)">
-      <node ref="J401" pin="1"/>
+    <net code="87" name="Net-(D408-Pad1)">
+      <node ref="R407" pin="1"/>
+      <node ref="D408" pin="1"/>
     </net>
-    <net code="93" name="Net-(C402-Pad2)">
-      <node ref="C402" pin="2"/>
-      <node ref="R409" pin="1"/>
-      <node ref="U401" pin="1"/>
-      <node ref="R411" pin="2"/>
+    <net code="88" name="Net-(C402-Pad1)">
+      <node ref="U401" pin="2"/>
+      <node ref="D409" pin="2"/>
+      <node ref="R411" pin="1"/>
+      <node ref="C402" pin="1"/>
     </net>
-    <net code="94" name="Net-(C406-Pad1)">
+    <net code="89" name="Net-(C403-Pad1)">
+      <node ref="R412" pin="1"/>
+      <node ref="C403" pin="1"/>
+      <node ref="U401" pin="6"/>
+      <node ref="D409" pin="1"/>
+    </net>
+    <net code="90" name="Net-(C406-Pad1)">
       <node ref="U402" pin="5"/>
       <node ref="C406" pin="1"/>
     </net>
-    <net code="95" name="Net-(U402-Pad3)">
+    <net code="91" name="Net-(U402-Pad3)">
       <node ref="U402" pin="3"/>
     </net>
-    <net code="96" name="Net-(U402-Pad8)">
-      <node ref="U402" pin="8"/>
-    </net>
-    <net code="97" name="Net-(U402-Pad7)">
-      <node ref="U402" pin="7"/>
-    </net>
-    <net code="98" name="Net-(U402-Pad1)">
+    <net code="92" name="Net-(U402-Pad1)">
       <node ref="U402" pin="1"/>
     </net>
-    <net code="99" name="Net-(D408-Pad1)">
-      <node ref="R407" pin="1"/>
-      <node ref="D408" pin="1"/>
+    <net code="93" name="Net-(U402-Pad8)">
+      <node ref="U402" pin="8"/>
+    </net>
+    <net code="94" name="Net-(U402-Pad7)">
+      <node ref="U402" pin="7"/>
+    </net>
+    <net code="95" name="Net-(D401-Pad1)">
+      <node ref="D401" pin="1"/>
+      <node ref="R402" pin="1"/>
+    </net>
+    <net code="96" name="Net-(D402-Pad1)">
+      <node ref="R404" pin="1"/>
+      <node ref="D402" pin="1"/>
+    </net>
+    <net code="97" name="Net-(D403-Pad1)">
+      <node ref="R406" pin="1"/>
+      <node ref="D403" pin="1"/>
+    </net>
+    <net code="98" name="Net-(D404-Pad1)">
+      <node ref="R408" pin="1"/>
+      <node ref="D404" pin="1"/>
+    </net>
+    <net code="99" name="Net-(J201-Pad3)">
+      <node ref="J201" pin="3"/>
     </net>
     <net code="100" name="Net-(J201-Pad2)">
       <node ref="J201" pin="2"/>
     </net>
-    <net code="101" name="Net-(J201-Pad3)">
-      <node ref="J201" pin="3"/>
-    </net>
-    <net code="102" name="Net-(U201-Pad4)">
+    <net code="101" name="Net-(U201-Pad4)">
       <node ref="U201" pin="4"/>
     </net>
-    <net code="103" name="Net-(U201-Pad5)">
+    <net code="102" name="Net-(U201-Pad5)">
       <node ref="U201" pin="5"/>
     </net>
-    <net code="104" name="Net-(C205-Pad2)">
+    <net code="103" name="Net-(C205-Pad2)">
       <node ref="U202" pin="4"/>
       <node ref="C205" pin="2"/>
     </net>
-    <net code="105" name="Net-(C207-Pad2)">
-      <node ref="U203" pin="4"/>
+    <net code="104" name="Net-(C207-Pad2)">
       <node ref="C207" pin="2"/>
+      <node ref="U203" pin="4"/>
     </net>
   </nets>
 </export>

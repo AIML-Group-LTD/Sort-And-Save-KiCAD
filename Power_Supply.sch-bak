@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title "Sort and Save Scanner"
-Date "2020-08-26"
-Rev "v01"
+Date "2021-01-21"
+Rev "v1.0.0"
 Comp "AIML"
 Comment1 ""
 Comment2 ""
@@ -109,7 +109,7 @@ F 3 "" H 8200 1900 50  0001 C CNN
 	1    8200 1900
 	1    0    0    -1  
 $EndComp
-Text HLabel 8100 1900 1    46   Input ~ 0
+Text HLabel 10150 4850 2    46   Input ~ 0
 +5V
 Text HLabel 7350 2050 2    46   Input ~ 0
 GND
@@ -161,164 +161,162 @@ Wire Wire Line
 Wire Wire Line
 	7350 1700 7350 2100
 Wire Wire Line
-	5850 5050 5850 4950
+	4800 5000 4800 4900
 $Comp
 L Device:C C204
 U 1 1 5F49EC66
-P 5850 5200
-F 0 "C204" H 5850 5300 50  0000 L CNN
-F 1 "1uF" H 5850 5100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5888 5050 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf" H 5850 5200 50  0001 C CIN
-F 4 "https://www.digikey.ca/en/products/detail/tdk-corporation/CGB2A1JB1C105M033BC/3949248" H 5850 5200 50  0001 C CIN "Purchase Site"
-	1    5850 5200
+P 4800 5150
+F 0 "C204" H 4800 5250 50  0000 L CNN
+F 1 "1uF" H 4800 5050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4838 5000 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf" H 4800 5150 50  0001 C CIN
+F 4 "https://www.digikey.ca/en/products/detail/tdk-corporation/CGB2A1JB1C105M033BC/3949248" H 4800 5150 50  0001 C CIN "Purchase Site"
+	1    4800 5150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 5350 5850 5500
+	4800 5300 4800 5450
 $Comp
 L power:GND #PWR0210
 U 1 1 5F49EC6D
-P 5850 5500
-F 0 "#PWR0210" H 5850 5250 50  0001 C CNN
-F 1 "GND" H 5855 5327 50  0000 C CNN
-F 2 "" H 5850 5500 50  0001 C CNN
-F 3 "" H 5850 5500 50  0001 C CNN
-	1    5850 5500
+P 4800 5450
+F 0 "#PWR0210" H 4800 5200 50  0001 C CNN
+F 1 "GND" H 4805 5277 50  0000 C CNN
+F 2 "" H 4800 5450 50  0001 C CNN
+F 3 "" H 4800 5450 50  0001 C CNN
+	1    4800 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0215
 U 1 1 5F49EC73
-P 9150 5150
-F 0 "#PWR0215" H 9150 4900 50  0001 C CNN
-F 1 "GND" H 9155 4977 50  0000 C CNN
-F 2 "" H 9150 5150 50  0001 C CNN
-F 3 "" H 9150 5150 50  0001 C CNN
-	1    9150 5150
+P 8100 5100
+F 0 "#PWR0215" H 8100 4850 50  0001 C CNN
+F 1 "GND" H 8105 4927 50  0000 C CNN
+F 2 "" H 8100 5100 50  0001 C CNN
+F 3 "" H 8100 5100 50  0001 C CNN
+	1    8100 5100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9050 4850 9600 4850
+	8000 4800 8550 4800
 Wire Wire Line
-	9050 4650 9200 4650
+	8000 4600 8150 4600
 $Comp
 L Device:C C207
 U 1 1 5F49EC7B
-P 9350 4650
-F 0 "C207" V 9400 4700 50  0000 L CNN
-F 1 "10nf" V 9400 4400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 9388 4500 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 9350 4650 50  0001 C CIN
-F 4 "https://www.digikey.ca/en/products/detail/kemet/C0402C103K4REC7867/8643577" V 9350 4650 50  0001 C CIN "Purchase Site"
-	1    9350 4650
+P 8300 4600
+F 0 "C207" V 8350 4650 50  0000 L CNN
+F 1 "10nf" V 8350 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8338 4450 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" H 8300 4600 50  0001 C CIN
+F 4 "https://www.digikey.ca/en/products/detail/kemet/C0402C103K4REC7867/8643577" V 8300 4600 50  0001 C CIN "Purchase Site"
+	1    8300 4600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9500 4650 9600 4650
+	8450 4600 8550 4600
 Wire Wire Line
-	9800 4950 9800 5350
-Connection ~ 9800 4950
+	8750 4900 8750 5300
+Connection ~ 8750 4900
 Wire Wire Line
-	9800 4950 10000 4950
+	8750 4900 8950 4900
 $Comp
 L Device:C C208
 U 1 1 5F49EC85
-P 9800 5500
-F 0 "C208" H 9700 5600 50  0000 L CNN
-F 1 "10uF" H 9600 5400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 9838 5350 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61A106KE69-01.pdf" H 9800 5500 50  0001 C CIN
-F 4 "https://www.digikey.ca/en/products/detail/murata-electronics/GRM188R61A106KE69D/5027559" H 9800 5500 50  0001 C CIN "Purchase Site"
-	1    9800 5500
+P 8750 5450
+F 0 "C208" H 8650 5550 50  0000 L CNN
+F 1 "10uF" H 8550 5350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8788 5300 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61A106KE69-01.pdf" H 8750 5450 50  0001 C CIN
+F 4 "https://www.digikey.ca/en/products/detail/murata-electronics/GRM188R61A106KE69D/5027559" H 8750 5450 50  0001 C CIN "Purchase Site"
+	1    8750 5450
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0216
 U 1 1 5F49EC8B
-P 9800 5700
-F 0 "#PWR0216" H 9800 5450 50  0001 C CNN
-F 1 "GND" H 9805 5527 50  0000 C CNN
-F 2 "" H 9800 5700 50  0001 C CNN
-F 3 "" H 9800 5700 50  0001 C CNN
-	1    9800 5700
+P 8750 5650
+F 0 "#PWR0216" H 8750 5400 50  0001 C CNN
+F 1 "GND" H 8755 5477 50  0000 C CNN
+F 2 "" H 8750 5650 50  0001 C CNN
+F 3 "" H 8750 5650 50  0001 C CNN
+	1    8750 5650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6250 4750 6200 4750
+	5200 4700 5150 4700
 $Comp
 L power:GND #PWR0211
 U 1 1 5F49EC92
-P 6150 4850
-F 0 "#PWR0211" H 6150 4600 50  0001 C CNN
-F 1 "GND" H 6150 4700 50  0000 C CNN
-F 2 "" H 6150 4850 50  0001 C CNN
-F 3 "" H 6150 4850 50  0001 C CNN
-	1    6150 4850
+P 5100 4800
+F 0 "#PWR0211" H 5100 4550 50  0001 C CNN
+F 1 "GND" H 5100 4650 50  0000 C CNN
+F 2 "" H 5100 4800 50  0001 C CNN
+F 3 "" H 5100 4800 50  0001 C CNN
+	1    5100 4800
 	1    0    0    -1  
 $EndComp
-Text HLabel 9150 5100 2    46   Input ~ 0
+Text HLabel 8100 5050 2    46   Input ~ 0
 GND
 Wire Wire Line
-	9800 5650 9800 5700
+	8750 5600 8750 5650
 $Comp
 L LT1763CS8TR:LT1763CS8TR U203
 U 1 1 5F49ECA3
-P 9050 4950
-F 0 "U203" H 10450 4285 50  0000 C CNN
-F 1 "LT1763CS8-3.3" H 10450 4376 50  0000 C CNN
-F 2 "SO-8_S" H 9050 4950 50  0001 L BNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1763fh.pdf" H 9050 4950 50  0001 L BIN
-F 4 "https://www.digikey.ca/en/products/detail/analog-devices-inc/LT1763CS8-3.3-PBF/891881" H 9050 4950 50  0001 L BIN "Purchase Site"
-	1    9050 4950
+P 8000 4900
+F 0 "U203" H 9400 4235 50  0000 C CNN
+F 1 "LT1763CS8-3.3" H 9400 4326 50  0000 C CNN
+F 2 "SO-8_S" H 8000 4900 50  0001 L BNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1763fh.pdf" H 8000 4900 50  0001 L BIN
+F 4 "https://www.digikey.ca/en/products/detail/analog-devices-inc/LT1763CS8-3.3-PBF/891881" H 8000 4900 50  0001 L BIN "Purchase Site"
+	1    8000 4900
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6150 4850 6200 4850
+	5100 4800 5150 4800
 Wire Wire Line
-	6200 4850 6200 4750
-Connection ~ 6200 4850
+	5150 4800 5150 4700
+Connection ~ 5150 4800
 Wire Wire Line
-	6200 4850 6250 4850
+	5150 4800 5200 4800
 Wire Wire Line
-	5750 4950 5850 4950
+	4700 4900 4800 4900
 Wire Wire Line
-	6250 4650 5950 4650
-Connection ~ 5850 4950
+	5200 4600 4900 4600
+Connection ~ 4800 4900
 Wire Wire Line
-	5950 4650 5950 4950
+	4900 4600 4900 4900
 Wire Wire Line
-	5850 4950 5950 4950
-Connection ~ 5950 4950
+	4800 4900 4900 4900
+Connection ~ 4900 4900
 Wire Wire Line
-	5950 4950 6250 4950
+	4900 4900 5200 4900
 Wire Wire Line
-	9050 4950 9600 4950
+	8000 4900 8550 4900
 Wire Wire Line
-	9600 4850 9600 4950
-Connection ~ 9600 4950
+	8550 4800 8550 4900
+Connection ~ 8550 4900
 Wire Wire Line
-	9600 4950 9800 4950
+	8550 4900 8750 4900
 Wire Wire Line
-	9600 4650 9600 4850
-Connection ~ 9600 4850
+	8550 4600 8550 4800
+Connection ~ 8550 4800
 Wire Wire Line
-	9050 4750 9150 4750
+	8000 4700 8100 4700
 Wire Wire Line
-	9150 4750 9150 5150
+	8100 4700 8100 5100
 $Comp
 L power:+3V3 #PWR0217
 U 1 1 5F49F98E
-P 10000 4950
-F 0 "#PWR0217" H 10000 4800 50  0001 C CNN
-F 1 "+3V3" H 9950 5100 50  0000 L CNN
-F 2 "" H 10000 4950 50  0001 C CNN
-F 3 "" H 10000 4950 50  0001 C CNN
-	1    10000 4950
+P 8950 4900
+F 0 "#PWR0217" H 8950 4750 50  0001 C CNN
+F 1 "+3V3" H 8900 5050 50  0000 L CNN
+F 2 "" H 8950 4900 50  0001 C CNN
+F 3 "" H 8950 4900 50  0001 C CNN
+	1    8950 4900
 	1    0    0    -1  
 $EndComp
-Text HLabel 9900 4950 1    46   Input ~ 0
-+3V3
 $Comp
 L Device:C C203
 U 1 1 5F673E64
@@ -345,7 +343,7 @@ F 3 "" H 2100 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5750 4900 5750 4950
+	4700 4850 4700 4900
 $Comp
 L Device:C C201
 U 1 1 60047483
@@ -378,9 +376,7 @@ Wire Wire Line
 	2200 3350 2100 3350
 Text Notes 3550 3450 0    46   ~ 0
 12V, 100mA out
-Text Notes 8100 2000 0    46   ~ 0
-5V, 500mA out
-Text Notes 9900 5050 0    46   ~ 0
+Text Notes 8850 5000 0    46   ~ 0
 3.3V, 500mA out
 Wire Wire Line
 	2200 3350 2550 3350
@@ -495,12 +491,12 @@ $EndComp
 $Comp
 L power:+12V #PWR0206
 U 1 1 600B8C89
-P 5750 4900
-F 0 "#PWR0206" H 5750 4750 50  0001 C CNN
-F 1 "+12V" H 5765 5073 50  0000 C CNN
-F 2 "" H 5750 4900 50  0001 C CNN
-F 3 "" H 5750 4900 50  0001 C CNN
-	1    5750 4900
+P 4700 4850
+F 0 "#PWR0206" H 4700 4700 50  0001 C CNN
+F 1 "+12V" H 4715 5023 50  0000 C CNN
+F 2 "" H 4700 4850 50  0001 C CNN
+F 3 "" H 4700 4850 50  0001 C CNN
+	1    4700 4850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -527,4 +523,204 @@ F 3 "" H 2850 3650 50  0001 C CNN
 $EndComp
 Text HLabel 3600 3350 2    46   Input ~ 0
 +12V
+$Comp
+L power:GND #PWR0222
+U 1 1 600DB831
+P 10150 5000
+F 0 "#PWR0222" H 10150 4750 50  0001 C CNN
+F 1 "GND" H 10150 4850 50  0000 C CNN
+F 2 "" H 10150 5000 50  0001 C CNN
+F 3 "" H 10150 5000 50  0001 C CNN
+	1    10150 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0220
+U 1 1 600DA0F8
+P 10150 4800
+F 0 "#PWR0220" H 10150 4650 50  0001 C CNN
+F 1 "+5V" H 10100 4950 50  0000 L CNN
+F 2 "" H 10150 4800 50  0001 C CNN
+F 3 "" H 10150 4800 50  0001 C CNN
+	1    10150 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:B2B-PH-K-S_LF__SN_ J203
+U 1 1 600E9FAF
+P 9950 4850
+F 0 "J203" V 9725 4858 50  0000 C CNN
+F 1 "B2B-PH-K-S_LF__SN_" H 10000 4700 50  0000 C CNN
+F 2 "digikey-footprints:PinHeader_1x2_P2mm_Drill1mm" H 10150 5050 60  0001 L CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 10150 5150 60  0001 L CNN
+F 4 "455-1704-ND" H 10150 5250 60  0001 L CNN "Digi-Key_PN"
+F 5 "B2B-PH-K-S(LF)(SN)" H 10150 5350 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 10150 5450 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 10150 5550 60  0001 L CNN "Family"
+F 8 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 10150 5650 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/jst-sales-america-inc/B2B-PH-K-S(LF)(SN)/455-1704-ND/926611" H 10150 5750 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 2POS 2MM" H 10150 5850 60  0001 L CNN "Description"
+F 11 "JST Sales America Inc." H 10150 5950 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10150 6050 60  0001 L CNN "Status"
+	1    9950 4850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10050 4850 10150 4850
+Wire Wire Line
+	10150 4850 10150 4800
+Wire Wire Line
+	10050 4950 10150 4950
+Wire Wire Line
+	10150 4950 10150 5000
+Wire Wire Line
+	9000 1850 9100 1850
+$Comp
+L power:GND #PWR0221
+U 1 1 600DC152
+P 9100 2000
+F 0 "#PWR0221" H 9100 1750 50  0001 C CNN
+F 1 "GND" H 9100 1850 50  0000 C CNN
+F 2 "" H 9100 2000 50  0001 C CNN
+F 3 "" H 9100 2000 50  0001 C CNN
+	1    9100 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0209
+U 1 1 600D91E9
+P 9100 1800
+F 0 "#PWR0209" H 9100 1650 50  0001 C CNN
+F 1 "+3V3" H 9000 1950 50  0000 L CNN
+F 2 "" H 9100 1800 50  0001 C CNN
+F 3 "" H 9100 1800 50  0001 C CNN
+	1    9100 1800
+	1    0    0    -1  
+$EndComp
+Text Notes 8100 2000 0    46   ~ 0
+5V, 500mA out
+Text HLabel 9100 1850 2    46   Input ~ 0
++3V3
+Wire Wire Line
+	9100 1800 9100 1850
+Wire Wire Line
+	9000 1950 9100 1950
+Wire Wire Line
+	9100 1950 9100 2000
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:B2B-PH-K-S_LF__SN_ J202
+U 1 1 600E7DD1
+P 8900 1850
+F 0 "J202" V 8675 1858 50  0000 C CNN
+F 1 "B2B-PH-K-S_LF__SN_" H 8950 1700 50  0000 C CNN
+F 2 "digikey-footprints:PinHeader_1x2_P2mm_Drill1mm" H 9100 2050 60  0001 L CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 9100 2150 60  0001 L CNN
+F 4 "455-1704-ND" H 9100 2250 60  0001 L CNN "Digi-Key_PN"
+F 5 "B2B-PH-K-S(LF)(SN)" H 9100 2350 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 9100 2450 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 9100 2550 60  0001 L CNN "Family"
+F 8 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 9100 2650 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/jst-sales-america-inc/B2B-PH-K-S(LF)(SN)/455-1704-ND/926611" H 9100 2750 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 2POS 2MM" H 9100 2850 60  0001 L CNN "Description"
+F 11 "JST Sales America Inc." H 9100 2950 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9100 3050 60  0001 L CNN "Status"
+	1    8900 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H201
+U 1 1 601829C2
+P 1750 6100
+F 0 "H201" H 1800 6300 50  0000 L CNN
+F 1 "MountingHole_Pad" H 950 6250 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1750 6100 50  0001 C CNN
+F 3 "~" H 1750 6100 50  0001 C CNN
+	1    1750 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H202
+U 1 1 6018323D
+P 2000 6100
+F 0 "H202" H 2050 6300 50  0000 L CNN
+F 1 "MountingHole_Pad" H 950 6150 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2000 6100 50  0001 C CNN
+F 3 "~" H 2000 6100 50  0001 C CNN
+	1    2000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H203
+U 1 1 60183527
+P 2250 6100
+F 0 "H203" H 2300 6300 50  0000 L CNN
+F 1 "MountingHole_Pad" H 950 6050 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2250 6100 50  0001 C CNN
+F 3 "~" H 2250 6100 50  0001 C CNN
+	1    2250 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H204
+U 1 1 601837B8
+P 2500 6100
+F 0 "H204" H 2550 6300 50  0000 L CNN
+F 1 "MountingHole_Pad" H 950 5950 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2500 6100 50  0001 C CNN
+F 3 "~" H 2500 6100 50  0001 C CNN
+	1    2500 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0223
+U 1 1 601841F8
+P 1750 6250
+F 0 "#PWR0223" H 1750 6000 50  0001 C CNN
+F 1 "GND" H 1755 6077 50  0000 C CNN
+F 2 "" H 1750 6250 50  0001 C CNN
+F 3 "" H 1750 6250 50  0001 C CNN
+	1    1750 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0224
+U 1 1 60184A4E
+P 2000 6250
+F 0 "#PWR0224" H 2000 6000 50  0001 C CNN
+F 1 "GND" H 2005 6077 50  0000 C CNN
+F 2 "" H 2000 6250 50  0001 C CNN
+F 3 "" H 2000 6250 50  0001 C CNN
+	1    2000 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0225
+U 1 1 60184D73
+P 2250 6250
+F 0 "#PWR0225" H 2250 6000 50  0001 C CNN
+F 1 "GND" H 2255 6077 50  0000 C CNN
+F 2 "" H 2250 6250 50  0001 C CNN
+F 3 "" H 2250 6250 50  0001 C CNN
+	1    2250 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0226
+U 1 1 60185016
+P 2500 6250
+F 0 "#PWR0226" H 2500 6000 50  0001 C CNN
+F 1 "GND" H 2505 6077 50  0000 C CNN
+F 2 "" H 2500 6250 50  0001 C CNN
+F 3 "" H 2500 6250 50  0001 C CNN
+	1    2500 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 6200 2500 6250
+Wire Wire Line
+	2250 6200 2250 6250
+Wire Wire Line
+	2000 6200 2000 6250
+Wire Wire Line
+	1750 6200 1750 6250
 $EndSCHEMATC

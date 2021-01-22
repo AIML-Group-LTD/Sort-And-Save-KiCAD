@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
 Title "Sort and Save Scanner"
-Date "2020-08-26"
-Rev "v01"
+Date "2021-01-21"
+Rev "v1.0.0"
 Comp "AIML"
 Comment1 ""
 Comment2 ""
@@ -19,7 +19,7 @@ U 1 1 5F4ABBBE
 P 5800 1450
 F 0 "D405" H 5650 1550 50  0000 C CNN
 F 1 "White" H 5900 1550 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 5800 1450 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 5800 1450 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2699708.pdf" H 5800 1450 50  0001 C CNN
 F 4 "https://canada.newark.com/vcc-visual-communications-company/lsm0603443v/led-white-120mcd-smd/dp/73AC4718?gclid=Cj0KCQjw7ZL6BRCmARIsAH6XFDJeERJAF4apSxdmHPzfx7J85qBDL3VHjlqkW7nuuDD_Z3Vs51Cpc8waAqhqEALw_wcB&mckv=sQ9nYXayh_dc|pcrid|436284254585|plid||kword||match||slid||product|73AC4718|pgrid|106725850292|ptaid|pla-904062949365|&CMP=KNC-GCA-GEN-Shopping-NewStructure-Optoelectronics-Displays" H 5800 1450 50  0001 C CNN "Purchase Site"
 	1    5800 1450
@@ -42,8 +42,8 @@ L Device:LED D406
 U 1 1 5F4ACE7E
 P 5800 1750
 F 0 "D406" H 5650 1850 50  0000 C CNN
-F 1 "950nm" H 5900 1850 50  0000 C CNN
-F 2 "LED_SMD:LED_0402_1005Metric" H 5800 1750 50  0001 C CNN
+F 1 "940nm" H 5900 1850 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 5800 1750 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2711871.pdf" H 5800 1750 50  0001 C CIN
 F 4 "https://www.digikey.ca/en/products/detail/osram-opto-semiconductors-inc/SFH-4043/4360732" H 5800 1750 50  0001 C CIN "Purchase Site"
 	1    5800 1750
@@ -132,7 +132,7 @@ Vf@50mA = 1.0V
 Text Notes 6200 2600 0    34   ~ 0
 Vf@50mA = 0.75V
 Text Notes 6200 1550 0    34   ~ 0
-Vf@20mA = 2.3V
+Vf@65mA = 2.8V
 Wire Wire Line
 	5400 2500 6150 2500
 Wire Wire Line
@@ -176,10 +176,6 @@ Wire Wire Line
 	4700 2350 5650 2350
 Wire Wire Line
 	4700 2050 5650 2050
-Wire Wire Line
-	4700 1750 5650 1750
-Wire Wire Line
-	4700 1450 5650 1450
 $Comp
 L Device:R R401
 U 1 1 5F4CF7FA
@@ -197,7 +193,7 @@ L Device:R R402
 U 1 1 5F4D0136
 P 4550 1600
 F 0 "R402" V 4500 1800 50  0000 C CNN
-F 1 "39" V 4550 1600 50  0000 C CNN
+F 1 "66" V 4550 1600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 1600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4550 1600 50  0001 C CIN
 F 4 "https://www.digikey.ca/en/products/detail/yageo/RC0402FR-0739RL/726602" V 4550 1600 50  0001 C CIN "Purchase Site"
@@ -875,5 +871,21 @@ Text HLabel 2150 3000 3    46   Input ~ 0
 +5V
 Wire Wire Line
 	2250 3000 2100 3000
-NoConn ~ 2650 3000
+$Comp
+L power:GND #PWR0111
+U 1 1 600AD532
+P 2650 3100
+F 0 "#PWR0111" H 2650 2850 50  0001 C CNN
+F 1 "GND" H 2655 2927 50  0000 C CNN
+F 2 "" H 2650 3100 50  0001 C CNN
+F 3 "" H 2650 3100 50  0001 C CNN
+	1    2650 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 3100 2650 3000
+Wire Wire Line
+	4700 1750 5650 1750
+Wire Wire Line
+	4700 1450 5650 1450
 $EndSCHEMATC

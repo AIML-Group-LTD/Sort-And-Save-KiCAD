@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "Sort and Save Scanner"
-Date "2020-08-26"
-Rev "v01"
+Date "2021-01-21"
+Rev "v1.0.0"
 Comp "AIML"
 Comment1 ""
 Comment2 ""

@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
 Title "Sort and Save Scanner"
-Date "2020-08-26"
-Rev "v01"
+Date "2021-01-21"
+Rev "v1.0.0"
 Comp "AIML"
 Comment1 ""
 Comment2 ""
@@ -697,12 +697,6 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    5000 3300
 	1    0    0    -1  
 $EndComp
-Entry Wire Line
-	6200 2600 6100 2700
-Wire Bus Line
-	6300 2450 6200 2450
-Text Notes 6200 2450 0    46   ~ 0
-UART
 Text HLabel 5700 2600 2    46   Input ~ 0
 UART_RX
 Text HLabel 5700 2700 2    46   Input ~ 0
@@ -754,8 +748,6 @@ F 3 "" H 3700 1700 50  0001 C CNN
 	1    3700 1700
 	1    0    0    -1  
 $EndComp
-Entry Wire Line
-	6100 2600 6200 2500
 $Comp
 L dk_Tactile-Switches:PTS645SM43SMTR92_LFS S301
 U 1 1 60039D31
@@ -811,6 +803,192 @@ Wire Wire Line
 	5600 2700 6100 2700
 Wire Wire Line
 	5600 2600 6100 2600
-Wire Bus Line
-	6200 2450 6200 2700
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:B4B-PH-K-S_LF__SN_ J303
+U 1 1 600BEF07
+P 6200 2800
+F 0 "J303" V 6450 2650 50  0000 R CNN
+F 1 "B4B-PH-K-S_LF__SN_" V 6350 2650 50  0000 R CNN
+F 2 "digikey-footprints:PinHeader_1x4_P2mm_Drill1mm" H 6400 3000 60  0001 L CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 6400 3100 60  0001 L CNN
+F 4 "455-1706-ND" H 6400 3200 60  0001 L CNN "Digi-Key_PN"
+F 5 "B4B-PH-K-S(LF)(SN)" H 6400 3300 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 6400 3400 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 6400 3500 60  0001 L CNN "Family"
+F 8 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 6400 3600 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/jst-sales-america-inc/B4B-PH-K-S(LF)(SN)/455-1706-ND/926613" H 6400 3700 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 4POS 2MM" H 6400 3800 60  0001 L CNN "Description"
+F 11 "JST Sales America Inc." H 6400 3900 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6400 4000 60  0001 L CNN "Status"
+	1    6200 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0324
+U 1 1 600C434B
+P 6100 2800
+F 0 "#PWR0324" H 6100 2550 50  0001 C CNN
+F 1 "GND" H 6100 2650 50  0000 C CNN
+F 2 "" H 6100 2800 50  0001 C CNN
+F 3 "" H 6100 2800 50  0001 C CNN
+	1    6100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0323
+U 1 1 600C4857
+P 6100 2500
+F 0 "#PWR0323" H 6100 2350 50  0001 C CNN
+F 1 "+3V3" H 6200 2600 50  0000 C CNN
+F 2 "" H 6100 2500 50  0001 C CNN
+F 3 "" H 6100 2500 50  0001 C CNN
+	1    6100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0326
+U 1 1 600C9512
+P 7100 5450
+F 0 "#PWR0326" H 7100 5200 50  0001 C CNN
+F 1 "GND" H 7100 5300 50  0000 C CNN
+F 2 "" H 7100 5450 50  0001 C CNN
+F 3 "" H 7100 5450 50  0001 C CNN
+	1    7100 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0325
+U 1 1 600CA345
+P 7100 5250
+F 0 "#PWR0325" H 7100 5100 50  0001 C CNN
+F 1 "+3V3" H 7200 5350 50  0000 C CNN
+F 2 "" H 7100 5250 50  0001 C CNN
+F 3 "" H 7100 5250 50  0001 C CNN
+	1    7100 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 5300 7100 5300
+Wire Wire Line
+	7100 5300 7100 5250
+Wire Wire Line
+	6950 5400 7100 5400
+Wire Wire Line
+	7100 5400 7100 5450
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:B2B-PH-K-S_LF__SN_ J304
+U 1 1 60129CE1
+P 6850 5300
+F 0 "J304" V 6625 5308 50  0000 C CNN
+F 1 "B2B-PH-K-S_LF__SN_" H 6850 5150 50  0000 C CNN
+F 2 "digikey-footprints:PinHeader_1x2_P2mm_Drill1mm" H 7050 5500 60  0001 L CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 7050 5600 60  0001 L CNN
+F 4 "455-1704-ND" H 7050 5700 60  0001 L CNN "Digi-Key_PN"
+F 5 "B2B-PH-K-S(LF)(SN)" H 7050 5800 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 7050 5900 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 7050 6000 60  0001 L CNN "Family"
+F 8 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 7050 6100 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/jst-sales-america-inc/B2B-PH-K-S(LF)(SN)/455-1704-ND/926611" H 7050 6200 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 2POS 2MM" H 7050 6300 60  0001 L CNN "Description"
+F 11 "JST Sales America Inc." H 7050 6400 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7050 6500 60  0001 L CNN "Status"
+	1    6850 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0327
+U 1 1 6014AE16
+P 9850 1700
+F 0 "#PWR0327" H 9850 1450 50  0001 C CNN
+F 1 "GND" H 9850 1500 50  0000 C CNN
+F 2 "" H 9850 1700 50  0001 C CNN
+F 3 "" H 9850 1700 50  0001 C CNN
+	1    9850 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0328
+U 1 1 6014B2F2
+P 10150 1700
+F 0 "#PWR0328" H 10150 1450 50  0001 C CNN
+F 1 "GND" H 10150 1500 50  0000 C CNN
+F 2 "" H 10150 1700 50  0001 C CNN
+F 3 "" H 10150 1700 50  0001 C CNN
+	1    10150 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0329
+U 1 1 6014B5E1
+P 10450 1700
+F 0 "#PWR0329" H 10450 1450 50  0001 C CNN
+F 1 "GND" H 10450 1500 50  0000 C CNN
+F 2 "" H 10450 1700 50  0001 C CNN
+F 3 "" H 10450 1700 50  0001 C CNN
+	1    10450 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0330
+U 1 1 6014B930
+P 10750 1700
+F 0 "#PWR0330" H 10750 1450 50  0001 C CNN
+F 1 "GND" H 10750 1500 50  0000 C CNN
+F 2 "" H 10750 1700 50  0001 C CNN
+F 3 "" H 10750 1700 50  0001 C CNN
+	1    10750 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H301
+U 1 1 601602A6
+P 9850 1550
+F 0 "H301" H 9850 1750 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9050 1700 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9850 1550 50  0001 C CNN
+F 3 "~" H 9850 1550 50  0001 C CNN
+	1    9850 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H302
+U 1 1 601608D7
+P 10150 1550
+F 0 "H302" H 10200 1750 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9050 1600 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 10150 1550 50  0001 C CNN
+F 3 "~" H 10150 1550 50  0001 C CNN
+	1    10150 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H303
+U 1 1 60160B81
+P 10450 1550
+F 0 "H303" H 10500 1750 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9050 1500 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 10450 1550 50  0001 C CNN
+F 3 "~" H 10450 1550 50  0001 C CNN
+	1    10450 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H304
+U 1 1 60160EC7
+P 10750 1550
+F 0 "H304" H 10850 1750 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9050 1400 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 10750 1550 50  0001 C CNN
+F 3 "~" H 10750 1550 50  0001 C CNN
+	1    10750 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 1650 9850 1700
+Wire Wire Line
+	10150 1650 10150 1700
+Wire Wire Line
+	10450 1650 10450 1700
+Wire Wire Line
+	10750 1650 10750 1700
 $EndSCHEMATC
